@@ -1398,6 +1398,34 @@
     }
   },
   {
+    "slug": "polar",
+    "name": "Polar",
+    "description": "Payment infrastructure for the 21st century. Polar provides the tools and APIs needed to handle subscriptions, one-time payments, and financial operations for modern applications.",
+    "shortDescription": "Payment infrastructure for the 21st century",
+    "image": "/polar.jpg",
+    "category": ["Payments", "Infrastructure"],
+    "tags": ["payments", "subscriptions", "billing", "fintech"],
+    "website": "https://polar.sh",
+    "github": "https://github.com/polarsource/polar",
+    "pricing": {
+      "model": "usage-based"
+    }
+  },
+  {
+    "slug": "shadcn",
+    "name": "shadcn/ui",
+    "description": "Beautifully designed components built with Radix UI and Tailwind CSS. shadcn/ui provides accessible, customizable, and reusable components that you can copy and paste into your apps.",
+    "shortDescription": "Beautifully designed components built with Radix UI and Tailwind CSS.",
+    "image": "/shadcn.jpg",
+    "category": ["UI", "Open Source"],
+    "tags": ["Open Source", "UI", "UI Components", "React", "Tailwind CSS", "Radix UI"],
+    "website": "https://ui.shadcn.com",
+    "github": "https://github.com/shadcn-ui/ui",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
     "slug": "ai-elements",
     "name": "AI Elements",
     "description": "AI Elements provides pre-built, customizable React components specifically designed for AI applications, including conversations, messages, code blocks, reasoning displays, and more. The CLI makes it easy to add these components to your Next.js project.",

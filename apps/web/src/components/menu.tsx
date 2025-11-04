@@ -73,6 +73,10 @@ const allSections = [
     tag: "Rate Limiting",
   },
   {
+    slug: "payments",
+    tag: "Payments",
+  },
+  {
     slug: "vector",
     tag: "Vector",
   },
