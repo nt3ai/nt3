@@ -1416,9 +1416,16 @@
     "name": "shadcn/ui",
     "description": "Beautifully designed components built with Radix UI and Tailwind CSS. shadcn/ui provides accessible, customizable, and reusable components that you can copy and paste into your apps.",
     "shortDescription": "Beautifully designed components built with Radix UI and Tailwind CSS.",
-    "image": "/shadcn.jpg",
+    "image": "/shadcn.png",
     "category": ["UI", "Open Source"],
-    "tags": ["Open Source", "UI", "UI Components", "React", "Tailwind CSS", "Radix UI"],
+    "tags": [
+      "Open Source",
+      "UI",
+      "UI Components",
+      "React",
+      "Tailwind CSS",
+      "Radix UI"
+    ],
     "website": "https://ui.shadcn.com",
     "github": "https://github.com/shadcn-ui/ui",
     "pricing": {
