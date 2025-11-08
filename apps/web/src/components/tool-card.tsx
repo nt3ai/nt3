@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Tool } from "@/lib/types";
 
-interface ToolCardProps {
+type ToolCardProps = {
   tool: Tool;
-}
+};
 
 export function ToolCard({ tool }: ToolCardProps) {
   return (
@@ -25,12 +25,14 @@ export function ToolCard({ tool }: ToolCardProps) {
         </h3>
       </div>
       <p className="text-muted-foreground lg:text-base text-sm mb-4 line-clamp-3 flex-1">
-        {tool.shortDescription || tool.description}
+        {tool.shortDescription}
       </p>
       <div className="space-y-3">
         <div className="flex flex-wrap gap-2">
           <span className="px-2 py-1 text-xs font-medium rounded-md bg-primary/10 text-primary">
-            {tool.category.join(", ")}
+            {Array.isArray(tool.category)
+              ? tool.category.join(", ")
+              : tool.category}
           </span>
           {tool.tags.slice(0, 2).map((tag) => (
             <span

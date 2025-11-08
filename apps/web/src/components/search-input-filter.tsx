@@ -7,7 +7,6 @@ import {
   type JSX,
   useCallback,
   useEffect,
-  useRef,
   useState,
 } from "react";
 import {
@@ -31,15 +30,11 @@ export function SearchInputFilter({
   onClear,
 }: SearchInputFilterProps): JSX.Element {
   const [search, setSearch] = useState(value ?? "");
-  const prevValueRef = useRef(value);
 
   // Sync internal state with external value prop
   useEffect(() => {
     const newValue = value ?? "";
-    if (prevValueRef.current !== value) {
-      setSearch(newValue);
-      prevValueRef.current = value;
-    }
+    setSearch(newValue);
   }, [value]);
 
   const handleSearchChange = useCallback(

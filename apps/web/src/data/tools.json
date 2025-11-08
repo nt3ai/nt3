@@ -352,7 +352,7 @@
     "website": "https://www.llamaindex.ai",
     "github": "https://github.com/run-llama/llama_index",
     "pricing": {
-      "model": "open-source"
+      "model": "freemium"
     }
   },
   {
@@ -713,13 +713,13 @@
     "description": "Serverless Redis database with per-request pricing and REST API. Perfect for caching, session management, and real-time features in AI applications. Built for serverless and edge environments with global low-latency access.",
     "shortDescription": "Serverless Ratelimiting for edge and serverless apps",
     "image": "/upstash.png",
-    "category": ["Ratelimit", "Serverless"],
+    "category": ["Ratelimit"],
     "tags": ["Redis", "Serverless", "Caching", "Edge", "REST API", "Real-Time"],
     "languages": ["JavaScript", "TypeScript", "Python", "Go"],
     "website": "https://upstash.com/redis",
-    "github": "https://github.com/upstash/upstash-redis",
+    "github": "https://github.com/upstash/upstash-ratelimit",
     "pricing": {
-      "model": "pay-as-you-go"
+      "model": "freemium"
     }
   },
   {
@@ -734,7 +734,7 @@
     "website": "https://arcjet.com",
     "github": "https://github.com/arcjet/arcjet",
     "pricing": {
-      "model": "pay-as-you-go"
+      "model": "freemium"
     }
   },
   {
@@ -743,7 +743,7 @@
     "description": "Serverless functions offer a ton of benefits but unfortunately make some things much harder too. Ratelimiting is one of these things as it requires some persistent state to coordinate different limits. Unkey's ratelimit API provides a global low latency solution to limit your functions and protect upstream services.",
     "shortDescription": "Fast global ratelimiting in serverless functions.",
     "image": "/unkey.jpg",
-    "category": ["Ratelimit", "Serverless"],
+    "category": ["Ratelimit"],
     "tags": ["Serverless", "Edge", "REST API", "Real-Time"],
     "languages": ["JavaScript", "TypeScript", "Python", "Go"],
     "website": "https://unkey.com",

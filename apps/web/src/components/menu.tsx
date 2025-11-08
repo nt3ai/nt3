@@ -158,7 +158,7 @@ export function Menu() {
                 className="w-full bg-[#F5F5F3]/30 text-black border border-black rounded-full items-center justify-center gap-2 font-medium flex dark:text-white dark:border-white"
                 variant="outline"
               >
-                <span>Submit</span> <PlusIcon className="w-4 h-4" />
+                <span>Submit</span> <PlusIcon className="size-4" />
               </Button>
             </Link>
           </div>

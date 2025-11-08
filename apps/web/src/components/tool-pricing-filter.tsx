@@ -57,14 +57,16 @@ export function ToolPricingFilter() {
 
   return (
     <Popover>
-      <PopoverTrigger render={<Button variant={"outline"} />}>
+      <PopoverTrigger
+        render={<Button className="cursor-pointer" variant={"outline"} />}
+      >
         <div className="flex items-center gap-2">
           <span className="truncate">Pricing</span>
           <span className="ml-1 rounded-full bg-muted px-1.5 py-0.5 text-xs">
             {selectedPricing.length}/{toolsPricing.length}
           </span>
         </div>
-        <ChevronDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
+        <ChevronDown className="opacity-50" />
       </PopoverTrigger>
       <PopoverContent align="start" className="w-[220px] p-0">
         <div className="p space-y-4">

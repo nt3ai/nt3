@@ -7,13 +7,16 @@ import { SearchInputFilter } from "./search-input-filter";
 export function ToolSearchInputFilter() {
   const { filters, setFilters } = useToolsFilterParams();
 
-  const handleSearchChange = useCallback((value: string) => {
-    setFilters({ q: value });
-  }, []);
+  const handleSearchChange = useCallback(
+    (value: string) => {
+      setFilters({ q: value });
+    },
+    [setFilters]
+  );
 
   const handleClear = useCallback(() => {
-    setFilters({ ...filters, q: null });
-  }, [filters]);
+    setFilters({ q: null });
+  }, [setFilters]);
 
   return (
     <SearchInputFilter

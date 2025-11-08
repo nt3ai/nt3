@@ -9,6 +9,7 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
+import { ScrollArea } from "@/components/ui/scroll-area";
 import {
   toolsLanguages,
   useToolsFilterParams,
@@ -57,16 +58,18 @@ export function ToolLanguagesFilter() {
 
   return (
     <Popover>
-      <PopoverTrigger render={<Button variant={"outline"} />}>
+      <PopoverTrigger
+        render={<Button className="cursor-pointer" variant={"outline"} />}
+      >
         <div className="flex items-center gap-2">
           <span className="truncate">Languages</span>
           <span className="ml-1 rounded-full bg-muted px-1.5 py-0.5 text-xs">
             {selectedLanguages.length}/{toolsLanguages.length}
           </span>
         </div>
-        <ChevronDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
+        <ChevronDown className=" opacity-50" />
       </PopoverTrigger>
-      <PopoverContent align="start" className="w-[220px] p-0">
+      <PopoverContent align="start" className="w-[220px]">
         <div className=" space-y-4">
           <div className="font-medium text-sm">Filter by Language</div>
 
@@ -88,29 +91,34 @@ export function ToolLanguagesFilter() {
           {/* Separator */}
           <div className="border-t" />
 
-          {/* Individual Language Checkboxes */}
-          <div className="space-y-3">
-            {toolsLanguages.map((option) => {
-              const isChecked = selectedLanguages.includes(option.value);
-              return (
-                <div className="flex items-center space-x-2" key={option.value}>
-                  <Checkbox
-                    checked={isChecked}
-                    id={`language-${option.value}`}
-                    onCheckedChange={(checked) =>
-                      handleLanguageChange(option.value, checked as boolean)
-                    }
-                  />
-                  <label
-                    className="flex items-center gap-2 text-sm cursor-pointer select-none flex-1"
-                    htmlFor={`language-${option.value}`}
+          {/* Individual Language Checkboxes with Scroll Area */}
+          <ScrollArea className="h-[300px]">
+            <div className="space-y-3 pr-4">
+              {toolsLanguages.map((option) => {
+                const isChecked = selectedLanguages.includes(option.value);
+                return (
+                  <div
+                    className="flex items-center space-x-2"
+                    key={option.value}
                   >
-                    {option.label}
-                  </label>
-                </div>
-              );
-            })}
-          </div>
+                    <Checkbox
+                      checked={isChecked}
+                      id={`language-${option.value}`}
+                      onCheckedChange={(checked) =>
+                        handleLanguageChange(option.value, checked as boolean)
+                      }
+                    />
+                    <label
+                      className="flex items-center gap-2 text-sm cursor-pointer select-none flex-1"
+                      htmlFor={`language-${option.value}`}
+                    >
+                      {option.label}
+                    </label>
+                  </div>
+                );
+              })}
+            </div>
+          </ScrollArea>
         </div>
       </PopoverContent>
     </Popover>
