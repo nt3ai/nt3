@@ -1,14 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import { extractYouTubeId } from "@/utils/extract-youtube-id";
 import { videos } from "./video-list";
-
-// Helper to extract YouTube video ID
-export function extractYouTubeId(url: string) {
-  const match = url.match(
-    /(?:youtube\.com\/(?:.*v=|v\/|embed\/|live\/)|youtu\.be\/)([a-zA-Z0-9_-]{11})/
-  );
-  return match ? match[1] : null;
-}
 
 export function VideoCard({ video }: { video: (typeof videos)[0] }) {
   const videoId = extractYouTubeId(video.youtubeUrl);
@@ -34,7 +27,7 @@ export function VideoCard({ video }: { video: (typeof videos)[0] }) {
         <h1 className="text-lg font-medium truncate">{video.title}</h1>
 
         {/* Multi-line ellipsis (2 lines) for description */}
-        <p className="text-muted-foreground text-base line-clamp-2">
+        <p className="text-muted-foreground text-base  line-clamp-2">
           {video.description}
         </p>
       </div>

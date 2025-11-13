@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { allSections } from "@/data/sections";
+import { videoSections } from "@/data/video-sections";
 import { useMediaQuery } from "@/hooks/use-media-query";
 import { cn } from "@/lib/utils";
 
@@ -44,7 +44,7 @@ export function VideosMenu() {
 
           <ScrollArea className="flex-1 overflow-y-auto">
             <div className="space-y-1">
-              {allSections
+              {videoSections
                 .slice()
                 .sort((a, b) => a.tag.localeCompare(b.tag))
                 .map((section) => {
@@ -121,7 +121,7 @@ export function VideosMenu() {
 
           <ScrollArea className="flex-1 overflow-y-auto">
             <div className="space-y-1">
-              {allSections
+              {videoSections
                 .slice()
                 .sort((a, b) => a.tag.localeCompare(b.tag))
                 .map((section) => {

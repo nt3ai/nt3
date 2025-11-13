@@ -22,136 +22,108 @@ import {
 
 export const videoSections = [
   {
-    slug: "caching",
-    tag: "Caching",
-    icon: HardDrive,
-    description:
-      "Optimize AI application performance with intelligent caching for model outputs and API responses.",
-  },
-  {
-    slug: "database",
-    tag: "Database",
-    icon: Database,
-    description:
-      "Essential database solutions for storing and retrieving AI training data, embeddings, and agent memories.",
-  },
-  {
-    slug: "ide",
-    tag: "IDE",
-    icon: Code2,
-    description:
-      "AI-powered development environments with intelligent code completion and debugging for AI application development.",
-  },
-  {
-    slug: "workflows",
-    tag: "Workflows",
-    icon: Workflow,
-    description:
-      "Design and automate complex AI agent workflows with visual orchestration and decision trees.",
-  },
-  {
-    slug: "ui",
-    tag: "UI Components",
-    icon: LayoutTemplate,
-    description:
-      "Pre-built UI components for creating intuitive interfaces to interact with AI models and agents.",
-  },
-  {
-    slug: "deployment",
-    tag: "Deployment",
-    icon: CloudUpload,
-    description:
-      "Seamlessly deploy AI models and agents to production with scalable infrastructure.",
-  },
-  {
-    slug: "monitoring",
-    tag: "Monitoring",
-    icon: BarChart3,
-    description:
-      "Track AI model performance, agent behavior, and system health in real-time.",
-  },
-  {
     slug: "llm",
     tag: "LLM Providers",
     icon: Bot,
     description:
-      "Integrate with leading language models to power your AI agents and natural language applications.",
+      "Explore tutorials on integrating and fine-tuning large language models for your AI apps and agents.",
   },
   {
     slug: "agents",
-    tag: "Agents",
+    tag: "AI Agents",
     icon: Cpu,
     description:
-      "Build autonomous AI agents that can reason, plan, and execute complex tasks.",
+      "Learn how to build autonomous agents that reason, plan, and act using modern AI frameworks.",
   },
   {
-    slug: "mcp",
-    tag: "MCP",
-    icon: Server,
+    slug: "workflows",
+    tag: "Workflows & Orchestration",
+    icon: Workflow,
     description:
-      "Orchestrate and manage fleets of AI agents and models at scale.",
-  },
-  {
-    slug: "web",
-    tag: "Web Search",
-    icon: Globe,
-    description:
-      "Enhance AI agents with real-time web search and information retrieval capabilities.",
-  },
-  {
-    slug: "coding",
-    tag: "Coding",
-    icon: FileCode2,
-    description:
-      "AI-powered coding assistants and tools to accelerate AI application development.",
-  },
-  {
-    slug: "framework",
-    tag: "Framework",
-    icon: CpuIcon,
-    description:
-      "Specialized frameworks for developing and deploying AI models and agent systems.",
-  },
-  {
-    slug: "api",
-    tag: "API",
-    icon: Code2,
-    description:
-      "APIs and tools for integrating AI capabilities into your applications and agent systems.",
-  },
-  {
-    slug: "storage",
-    tag: "Storage",
-    icon: HardDriveDownload,
-    description:
-      "Scalable storage solutions for AI model weights, vector embeddings, and agent memories.",
-  },
-  {
-    slug: "ratelimit",
-    tag: "Rate Limiting",
-    icon: Gauge,
-    description:
-      "Manage API rate limits and optimize usage for AI model providers and services.",
-  },
-  {
-    slug: "payments",
-    tag: "Payments",
-    icon: CreditCard,
-    description:
-      "Monetize your AI applications and manage API usage-based billing.",
+      "Visualize and automate multi-step AI workflows with tools for coordination and reasoning.",
   },
   {
     slug: "vector",
-    tag: "Vector",
+    tag: "Vector Databases",
     icon: DatabaseZap,
     description:
-      "Vector databases and similarity search for AI applications like semantic search and RAG systems.",
+      "Implement semantic search, retrieval-augmented generation (RAG), and memory using vector databases.",
   },
   {
     slug: "memory",
     tag: "Memory & Context",
     icon: BrainCircuit,
     description:
-      "Long-term memory solutions for AI agents to maintain context and learn from interactions.",
+      "Add persistent memory and contextual learning to your AI agents for richer interactions.",
+  },
+  {
+    slug: "framework",
+    tag: "Frameworks",
+    icon: CpuIcon,
+    description:
+      "Step-by-step guides on using AI frameworks for model serving, orchestration, and pipeline building.",
+  },
+  {
+    slug: "api",
+    tag: "APIs & Integrations",
+    icon: Code2,
+    description:
+      "Integrate AI features into your apps with robust API examples and SDK walkthroughs.",
+  },
+  {
+    slug: "deployment",
+    tag: "Deployment",
+    icon: CloudUpload,
+    description:
+      "Deploy AI models and agents efficiently to production using scalable and cost-effective infrastructure.",
+  },
+  {
+    slug: "monitoring",
+    tag: "Monitoring & Observability",
+    icon: BarChart3,
+    description:
+      "Track, debug, and optimize AI performance across applications and pipelines.",
+  },
+  {
+    slug: "ratelimit",
+    tag: "Rate Limiting",
+    icon: Gauge,
+    description:
+      "Learn to control API consumption, protect resources, and manage quotas for LLM-heavy apps.",
+  },
+  {
+    slug: "payments",
+    tag: "Payments & Monetization",
+    icon: CreditCard,
+    description:
+      "Add billing, subscription, and usage-based payment systems to your AI products.",
+  },
+  {
+    slug: "ui",
+    tag: "UI Components",
+    icon: LayoutTemplate,
+    description:
+      "Design beautiful, intuitive interfaces for interacting with AI agents and models.",
+  },
+  {
+    slug: "coding",
+    tag: "AI Coding Tools",
+    icon: FileCode2,
+    description:
+      "Watch coding tutorials and walkthroughs that teach building and optimizing AI-powered apps.",
+  },
+  {
+    slug: "database",
+    tag: "Databases",
+    icon: Database,
+    description:
+      "Learn database best practices for storing embeddings, model data, and user interactions.",
+  },
+  {
+    slug: "web",
+    tag: "Web Search",
+    icon: Globe,
+    description:
+      "Add real-time web access to your AI agents for up-to-date reasoning and insights.",
   },
 ];

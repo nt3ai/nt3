@@ -303,7 +303,7 @@
     }
   },
   {
-    "slug": "convex",
+    "slug": "convex-workflow",
     "name": "Convex Workflow",
     "image": "/convex.png",
     "description": "Open-source vector similarity search engine and vector database. High performance, production-ready vector search with filtering capabilities.",
@@ -1112,6 +1112,32 @@
     }
   },
   {
+    "slug": "model-context-protocol",
+    "name": "Model Context Protocol",
+    "description": "MCP (Model Context Protocol) is an open-source standard for connecting AI applications to external systems. \n\n Using MCP, AI applications like Claude or ChatGPT can connect to data sources (e.g. local files, databases), tools (e.g. search engines, calculators) and workflows (e.g. specialized prompts)—enabling them to access key information and perform tasks. Think of MCP like a USB-C port for AI applications. Just as USB-C provides a standardized way to connect electronic devices, MCP provides a standardized way to connect AI applications to external systems.",
+    "shortDescription": "An open-source standard for connecting AI applications to external systems.",
+    "image": "/mcp.png",
+    "category": ["MCP"],
+    "tags": ["MCP", "AI Integration", "Open Source"],
+    "languages": [
+      "TypeScript",
+      "JavaScript",
+      "Python",
+      "Java",
+      "Kotlin",
+      "Go",
+      "PHP",
+      "Ruby",
+      "Rust"
+    ],
+    "website": "https://modelcontextprotocol.io",
+    "docs": "https://modelcontextprotocol.io/docs",
+    "github": "https://github.com/modelcontextprotocol",
+    "pricing": {
+      "model": "open-source"
+    }
+  },
+  {
     "slug": "speakeasy",
     "name": "Speakeasy",
     "description": "Platform for generating type-safe SDKs and API documentation that are optimized for both developers and LLMs.",
@@ -1121,6 +1147,7 @@
     "tags": ["MCP", "Type Safety", "Developer Tools"],
     "languages": ["TypeScript", "Python", "Go", "Java"],
     "website": "https://speakeasy.com",
+    "docs": "https://speakeasy.com/docs",
     "pricing": {
       "model": "freemium"
     }
@@ -1197,6 +1224,37 @@
     "website": "https://trigger.dev",
     "pricing": {
       "model": "freemium"
+    }
+  },
+  {
+    "slug": "temporal",
+    "name": "Temporal",
+    "description": "Temporal delivers an open-source Durable Execution platform that abstracts away the complexity of building scalable, reliable distributed systems. It presents a development abstraction that preserves complete application state so that in the case of a host or software failure it can seamlessly migrate execution to another machine.",
+    "shortDescription": "Open source durable execution system. Write code that’s fault tolerant, durable, and simple.",
+    "image": "/temporal.jpg",
+    "category": ["Workflows", "Background Jobs"],
+    "tags": [
+      "Background Jobs",
+      "AI Agents",
+      "Workflows",
+      "Observability",
+      "Open Source"
+    ],
+    "languages": [
+      "TypeScript",
+      "JavaScript",
+      "Ruby",
+      "PHP",
+      "Go",
+      "Java",
+      "Python",
+      ".Net"
+    ],
+    "website": "https://tempral.io",
+    "github": "https://github.com/temporalio",
+    "docs": "https://docs.temporal.io/",
+    "pricing": {
+      "model": "paid"
     }
   },
   {
@@ -2046,7 +2104,7 @@
     "slug": "chef-convex",
     "name": "Chef by Convex",
     "description": "AI-powered development assistant by Convex for building full-stack applications. Helps with database schema design, backend logic, and real-time features.",
-    "shortDescription": "AI assistant for Convex development",
+    "shortDescription": "Generate Full stack realtime apps.",
     "image": "/convex.png",
     "category": ["Coding", "AI"],
     "tags": ["Convex", "AI Assistant", "Full-Stack", "Backend", "Real-Time"],
@@ -2123,10 +2181,9 @@
     ],
     "languages": ["TypeScript", "JavaScript"],
     "frameworks": ["Next.js"],
-    "website": "https://create.t3.gg",
-    "github": "https://github.com/t3-oss/create-t3-app",
+    "website": "https://t3.chat",
     "pricing": {
-      "model": "open-source"
+      "model": "freemium"
     }
   },
   {
@@ -2147,6 +2204,7 @@
     ],
     "languages": ["TypeScript", "JavaScript"],
     "website": "https://mastra.ai",
+    "docs": "https://mastra.ai/docs",
     "github": "https://github.com/mastra-ai/mastra",
     "pricing": {
       "model": "open-source"

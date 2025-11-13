@@ -1,90 +1,407 @@
 [
   {
-    "id": "video-1",
-    "title": "Building agents with the AI SDK (Nico Albanese)",
-    "description": "Learn the basics of building AI agents with the AI SDK.",
-    "youtubeUrl": "https://www.youtube.com/watch?v=1bx-eosOOkE&t=2275s",
-    "category": ["Agents"],
-    "creator": "Vercel",
-    "publishedAt": "2025-06-15"
+    "id": "video-uuid-002",
+    "title": "OpenAI Devs: Multi-step Prompting",
+    "description": "An official tutorial from OpenAI explaining how to use multi-step prompting to break down complex tasks and guide a model to a more accurate output.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=mnJJPltybBM",
+    "category": ["llm", "api", "coding"],
+    "creator": "OpenAI Devs",
+    "publishedAt": "2024-05-15"
   },
   {
-    "id": "video-2",
-    "title": "Vercel AI SDK Masterclass: From Fundamentals to Deep Research",
-    "description": "Learn the basics of building AI agents with the AI SDK.",
-    "youtubeUrl": "https://www.youtube.com/watch?v=kDlqpN1JyIw&t=10s",
-    "category": ["Framework"],
-    "creator": "AI Engineer",
-    "publishedAt": "2025-06-15"
-  },
-  {
-    "id": "video-3",
-    "title": "Building MCP servers using Gram from Speakeasy",
-    "description": "In this demo, Georges Haidar, software engineer at Speakeasy, walks us through Gram, a new platform for creating AI agent tools and MCP servers from APIs. Watch as he transforms the massive Stripe API (600+ endpoints) into focused, usable tool sets that AI agents can actually work with effectively. Learn about the sweet spot for tool count and best practices, how to improve tool descriptions for better agent understanding, and see a powerful demo of cross-API workflows that combine HubSpot, Stripe, and Speakeasy APIs into a single business process solution. Perfect for developers looking to build practical AI agents that can handle real-world business tasks.",
-    "youtubeUrl": "https://youtu.be/sNVVfTdnczY?si=A8V8XgbTobJnlg-l",
-    "category": ["MCP"],
-    "creator": "AI Engineer",
-    "publishedAt": "2025-06-15"
-  },
-  {
-    "id": "video-4",
-    "title": "An introduction to the Workflow Development Kit",
-    "description": "A deep dive into our latest OSS framework for building durable apps and AI agents",
-    "youtubeUrl": "https://youtu.be/1ewYyXO52Po?si=F5gc2pKrVvPI__J8",
-    "category": ["Workflows"],
-    "creator": "Vercel",
-    "publishedAt": "2025-06-15"
-  },
-
-  {
-    "id": "video-5",
-    "title": "Intro to PlanetScale",
-    "description": "We're covering all the basics of how PlanetScale works, both for Postgres and Vitess databases. Learn about high-availability configurations, insights, metrics, sharding, and more. We'll also be answering viewer questions live!",
-    "youtubeUrl": "https://www.youtube.com/live/W_ljegBqnyo?si=HkrTiDgAE9pxt52u",
-    "category": ["Database"],
-    "creator": "Vercel",
-    "publishedAt": "2025-06-15"
-  },
-  {
-    "id": "video-6",
-    "title": "Fine tuning Gemini with Google AI Studio",
-    "description": "Step-by-step on fine-tuning Gemini models in Google AI Studio for tasks like text generation, with data quality and evaluation tips.",
-    "youtubeUrl": "https://www.youtube.com/watch?v=-ja5TmYhQks",
-    "category": ["LLM"],
+    "id": "video-uuid-003",
+    "title": "What is Google AI Studio?",
+    "description": "A beginner-friendly tutorial from Google demonstrating how to use the Google AI Studio browser-based platform to build with generative AI models like Gemini.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Y6ufrXn_cZs",
+    "category": ["llm", "api", "ui", "coding"],
     "creator": "Google Cloud Tech",
-    "publishedAt": "2025-03-27"
+    "publishedAt": "2024-03-20"
   },
   {
-    "id": "video-7",
-    "title": "Introduction to Autonomous Agents using Microsoft AutoGen",
-    "description": "Overview of AutoGen framework for creating customizable LLM agents that communicate, plan, and execute tasks with tools and memory.",
-    "youtubeUrl": "https://www.youtube.com/watch?v=3r9hj8N-pp4",
-    "category": ["Agents"],
+    "id": "video-uuid-004",
+    "title": "Introduction to Gemini APIs and AI Studio",
+    "description": "A Google for Developers walkthrough on how to use the Gemini API and Google AI Studio to build AI applications, covering function calling and basic prompting.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=4oyqd7CB09c",
+    "category": ["llm", "api", "ui"],
+    "creator": "Google for Developers",
+    "publishedAt": "2024-01-18"
+  },
+  {
+    "id": "video-uuid-005",
+    "title": "Google AI Studio for Beginners",
+    "description": "An official tutorial from Google Cloud Tech demonstrating how to get started with Google AI Studio to build and prototype generative AI applications with Gemini.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=IHOJUJjZbzc",
+    "category": ["llm", "api", "ui"],
+    "creator": "Google Cloud Tech",
+    "publishedAt": "2024-02-15"
+  },
+  {
+    "id": "video-uuid-006",
+    "title": "Integrate Gemini into your developer workflow",
+    "description": "A Google Cloud tutorial on accelerating API development by integrating Gemini Code Assist and AI-powered insights directly into the Apigee workflow.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=JxXHDi5UgvM",
+    "category": ["api", "coding", "workflows"],
+    "creator": "Google Cloud Tech",
+    "publishedAt": "2024-08-05"
+  },
+  {
+    "id": "video-uuid-007",
+    "title": "How to architect AI agents for everyday tasks",
+    "description": "A Google Cloud tutorial demonstrating how to design and build a multi-agent system for complex tasks, using a restaurant-selection agent as an example.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=HvZGl2qZVc4",
+    "category": ["agents", "workflows", "coding"],
+    "creator": "Google Cloud Tech",
+    "publishedAt": "2024-10-10"
+  },
+  {
+    "id": "video-uuid-008",
+    "title": "Building AI agents on Google Cloud",
+    "description": "A comprehensive official tutorial from Google Cloud Tech on the architecture and deployment of AI agents using Google Cloud's AI infrastructure.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=TUysIAtxyrQ",
+    "category": ["agents", "deployment", "workflows", "framework"],
+    "creator": "Google Cloud Tech",
+    "publishedAt": "2024-05-01"
+  },
+  {
+    "id": "video-uuid-009",
+    "title": "How to deploy an AI agent",
+    "description": "An official guide from Google Cloud Tech on how to move beyond chatbots to deploy AI agents as a service, manage latency, and automate workflows.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=TLWLX_LGjUc",
+    "category": ["agents", "deployment", "monitoring"],
+    "creator": "Google Cloud Tech",
+    "publishedAt": "2024-06-15"
+  },
+  {
+    "id": "video-uuid-010",
+    "title": "Building and deploying AI Agents on Google Cloud",
+    "description": "An official guide from Google Cloud Tech covering the end-to-end process of building AI agents with frameworks like LangGraph and deploying them on Cloud Run.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=8rlNdKywldQ",
+    "category": ["agents", "deployment", "framework", "coding"],
+    "creator": "Google Cloud Tech",
+    "publishedAt": "2024-05-15"
+  },
+  {
+    "id": "video-uuid-011",
+    "title": "Anthropic: Mastering Claude Code in 30 minutes",
+    "description": "A streamed masterclass from Anthropic teaching advanced features, shortcuts, and workflows to maximize productivity and effectiveness when using Claude Code.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=6eBSHbLKuN0",
+    "category": ["llm", "coding", "agents"],
+    "creator": "Anthropic",
+    "publishedAt": "2024-06-12"
+  },
+  {
+    "id": "video-uuid-012",
+    "title": "Anthropic: Claude Code best practices | Code w/ Claude",
+    "description": "An official tutorial from an Anthropic engineer demonstrating best practices for using Claude Code, treating the AI as a terminal-focused collaborator.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=gv0WHhKelSE",
+    "category": ["llm", "coding", "agents"],
+    "creator": "Anthropic",
+    "publishedAt": "2024-08-15"
+  },
+  {
+    "id": "video-uuid-013",
+    "title": "Full Course (Lessons 1-10) AI Agents for Beginners",
+    "description": "A complete, multi-part official course from Microsoft Developer covering the foundational concepts and design patterns for building effective AI agents.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=OhI005_aJkA",
+    "category": ["agents", "framework", "workflows", "coding"],
+    "creator": "Microsoft Developer",
+    "publishedAt": "2024-04-02"
+  },
+  {
+    "id": "video-uuid-014",
+    "title": "Meet the new Azure AI Studio",
+    "description": "A walkthrough from Microsoft Azure demonstrating the new Azure AI Studio, which unifies tools for building, training, and deploying generative AI applications.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=JI6IQvSLP9M",
+    "category": ["deployment", "llm", "monitoring", "ui"],
+    "creator": "Microsoft Azure",
+    "publishedAt": "2023-11-16"
+  },
+  {
+    "id": "video-uuid-015",
+    "title": "How to build a chatbot using Azure OpenAI Studio",
+    "description": "A guest tutorial on the official Microsoft Azure channel demonstrating a low-code/no-code approach to building and deploying a GenAI chatbot with Azure OpenAI Studio.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=_pi7dyuCf-0",
+    "category": ["llm", "ui", "deployment", "api"],
+    "creator": "Microsoft Azure",
+    "publishedAt": "2024-07-20"
+  },
+  {
+    "id": "video-uuid-016",
+    "title": "Build and scale GenAI applications using Azure AI Foundry",
+    "description": "An official Microsoft Azure tutorial on using Azure AI Foundry to rapidly build and scale GenAI applications, covering prompts, tools, grounding, and agents.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=xyeS7nME5Gs",
+    "category": ["agents", "deployment", "framework"],
+    "creator": "Microsoft Azure",
+    "publishedAt": "2024-06-10"
+  },
+  {
+    "id": "video-uuid-017",
+    "title": "Creating Real-Time Autonomous AI Agents with Copilot Studio",
+    "description": "An official Microsoft Reactor tutorial on the fundamentals of building autonomous agents with Copilot Studio, integrating AI with business logic and real-time data.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=k7SWwJX2ggE",
+    "category": ["agents", "workflows", "ui"],
     "creator": "Microsoft Reactor",
-    "publishedAt": "2024-11-18"
+    "publishedAt": "2024-06-05"
   },
   {
-    "id": "video-8",
-    "title": "Beginner's Guide to Convex Workflow",
-    "description": "In this video, we talk about one of Convex's most powerful components Workflow. We're going to go over what a workflow is and how we can get it setup using convex.",
-    "youtubeUrl": "https://youtu.be/9mdx79-cqLc?si=gn27fgrbPGcXa7P9",
-    "category": ["Workflows"],
-    "creator": "Convex",
-    "publishedAt": "2024-11-18"
+    "id": "video-uuid-018",
+    "title": "LangChain & LangGraph 1.0 Technical Discussion",
+    "description": "An in-depth technical discussion with the LangChain team about the 1.0 releases, production-ready agent frameworks, and the LangGraph architecture.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=r5Z_gYZb4Ns",
+    "category": ["agents", "framework", "workflows"],
+    "creator": "LangChain",
+    "publishedAt": "2024-09-18"
   },
   {
-    "id": "video-9",
-    "title": "The Ultimate Convex Crash Course",
-    "description": "In this video, I go over the core primitives of Convex... if you're new to Convex or need a refresher this video is for you.",
-    "youtubeUrl": "https://youtu.be/_Qqvoq8JVXM?si=CuawcYZFQKD6GUfV",
-    "category": ["Workflows"],
-    "links": [
-      {
-        "title": "Checkout Convex",
-        "link": "https://www.convex.dev/"
-      }
-    ],
-    "creator": "Convex",
-    "publishedAt": "2024-11-18"
+    "id": "video-uuid-019",
+    "title": "LangGraph Builder",
+    "description": "An official demo from LangChain showcasing the LangGraph Builder, a UI for visualizing and building the 'cognitive architecture' of an AI agent.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=iwPeT_I_GEc",
+    "category": ["agents", "ui", "workflows"],
+    "creator": "LangChain",
+    "publishedAt": "2024-04-10"
+  },
+  {
+    "id": "video-uuid-020",
+    "title": "Build Reliable AI Agents with LangGraph (on AWS)",
+    "description": "LangChain's Lance Martin demonstrates on the AWS Developers channel how to build and test reliable, stateful AI agents using the LangGraph library.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=E0BtW2yt2pA",
+    "category": ["agents", "framework", "workflows", "deployment"],
+    "creator": "AWS Developers",
+    "publishedAt": "2024-07-12"
+  },
+  {
+    "id": "video-uuid-021",
+    "title": "Pinecone #1 - Getting Started",
+    "description": "The official getting started tutorial for the Pinecone vector database, covering initial setup, creating an index, and basic operations for RAG.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=AGKY_Q3GjRc",
+    "category": ["vector", "database", "api"],
+    "creator": "Pinecone",
+    "publishedAt": "2023-09-15"
+  },
+  {
+    "id": "video-uuid-022",
+    "title": "Getting Started with Pinecone",
+    "description": "A developer-focused walkthrough from Pinecone's Arjun Patel, demonstrating how to use the quickstart notebook to create an index, embed data, and run searches.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=H6kCi7esgw0",
+    "category": ["vector", "database", "coding", "api"],
+    "creator": "Pinecone",
+    "publishedAt": "2024-08-01"
+  },
+  {
+    "id": "video-uuid-023",
+    "title": "Live Demo: Getting Started with Pinecone",
+    "description": "An official live demo from Pinecone showing how to get started with the vector database, including setting up an index and running queries.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=v4bye5Rfa3g",
+    "category": ["vector", "database", "api"],
+    "creator": "Pinecone",
+    "publishedAt": "2024-05-10"
+  },
+  {
+    "id": "video-uuid-024",
+    "title": "How to Get Started with and Optimize Pinecone",
+    "description": "An official workshop from Pinecone's product and success teams on setting up, querying, and optimizing a vector database, including pod selection and scaling.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=rQd9OpzS2Ow",
+    "category": ["vector", "database", "deployment", "monitoring"],
+    "creator": "Pinecone",
+    "publishedAt": "2023-06-28"
+  },
+  {
+    "id": "video-uuid-025",
+    "title": "Faster Stable Diffusion with Pinecone x Hugging Face",
+    "description": "An official workshop from Pinecone and Hugging Face demonstrating how to build more efficient diffusion workflows by caching image embeddings with Pinecone.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=YMlzhnlSAww",
+    "category": ["vector", "llm", "coding", "workflows"],
+    "creator": "Pinecone",
+    "publishedAt": "2022-10-20"
+  },
+  {
+    "id": "video-uuid-026",
+    "title": "Weaviate Academy Unit 1: Introduction",
+    "description": "An official introduction from Weaviate explaining what a vector database is, its core concepts, and how it powers semantic search and AI applications.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=MQgm126pKkU",
+    "category": ["vector", "database"],
+    "creator": "Weaviate",
+    "publishedAt": "2022-11-01"
+  },
+  {
+    "id": "video-uuid-027",
+    "title": "Building Multimodal Search and RAG (with Weaviate)",
+    "description": "A course from DeepLearningAI, in collaboration with Weaviate, teaching how to build multimodal search and RAG systems to incorporate images, audio, and video.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=xtWsNDG8RSw",
+    "category": ["vector", "llm", "coding", "database"],
+    "creator": "DeepLearningAI",
+    "publishedAt": "2023-10-05"
+  },
+  {
+    "id": "video-uuid-028",
+    "title": "Multimodal RAG with Weaviate and Gemini",
+    "description": "A tutorial from a Weaviate developer advocate on the Google Developers channel, showing how to perform multimodal RAG using Weaviate and the Gemini model.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=CiUNt-J8ZVY",
+    "category": ["vector", "llm", "coding", "api"],
+    "creator": "Google for Developers",
+    "publishedAt": "2024-03-20"
+  },
+  {
+    "id": "video-uuid-029",
+    "title": "Qdrant Essentials: Final Project",
+    "description": "A full-stack project from Qdrant's official course, building a production-grade documentation search engine using hybrid and multivector retrieval.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=CllIGw1QwLg",
+    "category": ["vector", "coding", "workflows", "web"],
+    "creator": "Qdrant",
+    "publishedAt": "2024-10-25"
+  },
+  {
+    "id": "video-uuid-030",
+    "title": "What's New in Qdrant 1.14: Reranking, Indexing, and Performance",
+    "description": "An official office hours session from Qdrant with live demos of new features, including the score-boosting reranker and incremental HNSW indexing.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=nBqlqR8yM4Y",
+    "category": ["vector", "database", "api"],
+    "creator": "Qdrant",
+    "publishedAt": "2024-05-10"
+  },
+  {
+    "id": "video-uuid-031",
+    "title": "Qdrant Essentials: Distance Metrics",
+    "description": "An official course from Qdrant explaining the core concepts of vector search, including how Cosine, Euclidean, and Dot Product distance metrics affect results.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=mUMftLNSozs",
+    "category": ["vector", "database"],
+    "creator": "Qdrant",
+    "publishedAt": "2024-10-30"
+  },
+  {
+    "id": "video-uuid-032",
+    "title": "Qdrant Essentials: Creating Vectors and Embeddings",
+    "description": "An official tutorial from Qdrant covering the core data model of points, vectors, and payloads, and how to structure data for powerful vector and metadata search.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=Q6ZalzJ8dv8",
+    "category": ["vector", "database", "api"],
+    "creator": "Qdrant",
+    "publishedAt": "2024-10-28"
+  },
+  {
+    "id": "video-uuid-033",
+    "title": "Qdrant: Getting Started with Text Data",
+    "description": "An official tutorial from Qdrant on how to create vector embeddings from text data, add them to Qdrant, and perform similarity search for recommendations.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=taYoJ-mKLUI",
+    "category": ["vector", "coding", "database", "api"],
+    "creator": "Qdrant",
+    "publishedAt": "2023-09-01"
+  },
+  {
+    "id": "video-uuid-034",
+    "title": "Qdrant: Hybrid Search with Node.js",
+    "description": "An official Qdrant tutorial demonstrating how to perform hybrid search (sparse + dense vectors) using the Qdrant Node.js client.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=sYP_kHWptHY",
+    "category": ["vector", "coding", "web"],
+    "creator": "Qdrant",
+    "publishedAt": "2024-04-12"
+  },
+  {
+    "id": "video-uuid-035",
+    "title": "Introduction to the Hugging Face Course",
+    "description": "The official introductory video for the Hugging Face course, explaining the basics of transformers, pipelines, and transfer learning for NLP.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=00GKzGyWFEs",
+    "category": ["llm", "framework", "coding"],
+    "creator": "Hugging Face",
+    "publishedAt": "2021-08-01"
+  },
+  {
+    "id": "video-uuid-036",
+    "title": "Vercel Product Walkthrough",
+    "description": "An official walkthrough of the Vercel platform from Lee Robinson, demonstrating features for building, deploying, and monitoring fast, personalized web experiences.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=sPmat30SE4k",
+    "category": ["deployment", "ui", "monitoring"],
+    "creator": "Vercel",
+    "publishedAt": "2022-09-20"
+  },
+  {
+    "id": "video-uuid-037",
+    "title": "Building AI Agents with Vercel AI SDK",
+    "description": "An official Vercel tutorial on how the AI SDK simplifies building AI agents by using 'steps' to create a feedback loop between the LLM and tools.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=mojZpktAiYQ",
+    "category": ["agents", "framework", "ui", "coding"],
+    "creator": "Vercel",
+    "publishedAt": "2024-05-15"
+  },
+  {
+    "id": "video-uuid-038",
+    "title": "Building Coding Agents on Vercel",
+    "description": "A demonstration from Vercel on building a coding agent that can read files, update code, and automatically create pull requests on a Vercel-deployed application.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=1bx-eosOOkE",
+    "category": ["agents", "coding", "deployment", "workflows"],
+    "creator": "Vercel",
+    "publishedAt": "2024-05-15"
+  },
+  {
+    "id": "video-uuid-039",
+    "title": "Build a Movie Generator App with Replicate",
+    "description": "An official demo from Replicate building a movie generator application in under 10 minutes, showcasing the platform's capabilities for running ML models.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=w40FQeGyznc",
+    "category": ["llm", "api", "coding"],
+    "creator": "Replicate AI",
+    "publishedAt": "2023-05-20"
+  },
+  {
+    "id": "video-uuid-040",
+    "title": "Using Replicate Deployments (Part 1)",
+    "description": "An official tutorial from Replicate on how to use deployments for more control over models, managing code paths, and using environment variables.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=lpYw8Anzd7o",
+    "category": ["deployment", "api", "coding"],
+    "creator": "Replicate AI",
+    "publishedAt": "2023-04-10"
+  },
+  {
+    "id": "video-uuid-041",
+    "title": "Fine-tuning a Diffusion Model on Modal",
+    "description": "A technical walkthrough from a Modal Labs engineer on how to fine-tune a diffusion model (Dreambooth) and deploy it as a serverless application on Modal.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=df-8fiByXMI",
+    "category": ["llm", "deployment", "coding", "api"],
+    "creator": "Modal Labs",
+    "publishedAt": "2023-03-15"
+  },
+  {
+    "id": "video-uuid-042",
+    "title": "Supabase and Clerk: RLS and JWT",
+    "description": "An official tutorial from Clerk demonstrating how to integrate Supabase and Clerk for authentication using Row Level Security (RLS) and JWT templates.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=ICNulnfQvd8",
+    "category": ["ui", "database", "coding"],
+    "creator": "Clerk Devs",
+    "publishedAt": "2023-05-18"
+  },
+  {
+    "id": "video-uuid-043",
+    "title": "Build & Deploy Your First Cloudflare Workers AI App",
+    "description": "An official, comprehensive tutorial from Cloudflare on how to set up a new Cloudflare Workers application, write code locally, and integrate Cloudflare AI.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=H7Qe96fqg1M",
+    "category": ["deployment", "api", "coding", "llm"],
+    "creator": "Cloudflare",
+    "publishedAt": "2024-04-20"
+  },
+  {
+    "id": "video-uuid-044",
+    "title": "Introducing Stripe Workflows: Customizing Stripe",
+    "description": "An official demo from Stripe Developers on using Stripe Workflows to build custom logic and automate tasks like fraud checks and invoice approvals with no code.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=taiNRgP_rtU",
+    "category": ["payments", "workflows", "api"],
+    "creator": "Stripe Developers",
+    "publishedAt": "2024-06-05"
+  },
+  {
+    "id": "video-uuid-045",
+    "title": "Build something Lovable with Stripe",
+    "description": "A live session on the Stripe Developers channel demonstrating how to use the Lovable AI platform to build applications and integrate backend services like Stripe.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=SJx7aJeGI00",
+    "category": ["payments", "ui", "coding", "api"],
+    "creator": "Stripe Developers",
+    "publishedAt": "2024-07-10"
+  },
+  {
+    "id": "video-uuid-046",
+    "title": "One-time payments with Stripe Checkout and ASP.NET",
+    "description": "An official tutorial from Stripe Developers on how to integrate Stripe Checkout for one-time payments into an online storefront built with.NET and ASP.NET Core.",
+    "youtubeUrl": "https://www.youtube.com/watch?v=N_hn9oulTT4",
+    "category": ["payments", "coding", "api"],
+    "creator": "Stripe Developers",
+    "publishedAt": "2024-05-01"
   }
 ]

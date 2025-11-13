@@ -1,4 +1,3 @@
-import { YouTubeEmbed } from "@next/third-parties/google";
 import { ArrowUpRightIcon } from "lucide-react";
 import type { Metadata } from "next";
 import Image from "next/image";
@@ -37,8 +36,8 @@ export async function generateMetadata({
   };
 }
 
-export default async function ToolPage({ params }: ToolPageProps) {
-  const { slug } = await params;
+export default async function ToolPage(props: PageProps<"/t/[slug]">) {
+  const { slug } = await props.params;
   const tool = getToolBySlug(slug);
 
   if (!tool) {
@@ -102,7 +101,7 @@ export default async function ToolPage({ params }: ToolPageProps) {
 
         <div className="my-8">
           <h2 className="lg:text-xl text-lg font-medium mb-2">Description</h2>
-          <p className="text-muted-foreground text-base font-mono leading-relaxed">
+          <p className="text-muted-foreground text-base  leading-relaxed">
             {tool.description}
           </p>
         </div>
@@ -204,8 +203,8 @@ export default async function ToolPage({ params }: ToolPageProps) {
 
       {uniqueRelatedTools.length > 0 && (
         <div className="my-8">
-          <h3 className="lg:text-xl text-lg font-medium mb-2">Related Tools</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
+          <h3 className="lg:text-xl text-lg font-medium mb-3">Related Tools</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 ">
             {uniqueRelatedTools.slice(0, 3).map((tool) => (
               <ToolCard key={tool.slug} tool={tool} />
             ))}

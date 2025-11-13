@@ -11,6 +11,7 @@ export function ToolCard({ tool }: ToolCardProps) {
     <Link
       className="group flex flex-col p-5 rounded-2xl border bg-card hover:bg-accent/50 transition-all "
       href={`/t/${tool.slug}`}
+      scroll={false}
     >
       <div className="flex items-center mb-3 gap-3">
         <Image
