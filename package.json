@@ -1,5 +1,5 @@
 {
-  "name": "nt3",
+  "name": "useagents",
   "devDependencies": {
     "@biomejs/biome": "2.3.2",
     "@manypkg/cli": "^0.25.1",
@@ -18,16 +18,12 @@
     "lint": "turbo run lint",
     "manypkg:check": "manypkg check",
     "manypkg:fix": "manypkg fix",
-    "dev:web": "turbo run dev --filter=@nt3/web",
-    "build:web": "turbo run build --filter=@nt3/web",
-    "start:web": "turbo run start --filter=@nt3/web"
+    "dev:web": "turbo run dev --filter=@useagents/web",
+    "build:web": "turbo run build --filter=@useagents/web",
+    "start:web": "turbo run start --filter=@useagents/web"
   },
   "workspaces": [
     "apps/*",
     "packages/*"
-  ],
-  "dependencies": {
-    "@next/third-parties": "^16.0.1",
-    "@vidstack/react": "^1.12.13"
-  }
+  ]
 }

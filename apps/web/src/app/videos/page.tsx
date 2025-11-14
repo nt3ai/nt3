@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 export default function VideosPage() {
   return (
     <FadeInOutWrapper className="max-w-[1400px] mx-auto">
-      <h1 className="lg:text-3xl text-2xl mb-3 mt-10 max-w-xl text-balance font-medium lg:pl-5">
+      <h1 className="lg:text-3xl text-2xl mb-3 mt-10 max-w-xl text-balance font-heading lg:pl-5">
         Master the craft of building with AI
       </h1>
       <p className="mb-10 text-muted-foreground text-balance max-w-xl lg:pl-5">

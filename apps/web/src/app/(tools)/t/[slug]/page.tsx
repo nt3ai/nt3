@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 import { FadeInOutWrapper } from "@/components/motion-wrappers";
 import { ToolCard } from "@/components/tool-card";
 import { Button } from "@/components/ui/button";
@@ -184,22 +185,24 @@ export default async function ToolPage(props: PageProps<"/t/[slug]">) {
         </div>
       )}
 
-      {tool.tags.length > 0 && (
-        <div className="my-8">
-          <h3 className="lg:text-xl text-lg font-medium mb-2">Tags</h3>
-          <div className="flex flex-wrap gap-2">
-            {tool.tags.map((tag) => (
-              <Link
-                className="px-3 py-1 text-sm rounded-md bg-muted hover:bg-muted/80 text-muted-foreground hover:text-foreground transition-colors"
-                href={`/?q=${encodeURIComponent(tag)}`}
-                key={tag}
-              >
-                {tag}
-              </Link>
-            ))}
+      <Suspense>
+        {tool.tags.length > 0 && (
+          <div className="my-8">
+            <h3 className="lg:text-xl text-lg font-medium mb-2">Tags</h3>
+            <div className="flex flex-wrap gap-2">
+              {tool.tags.map((tag) => (
+                <Link
+                  className="px-3 py-1 text-sm rounded-md bg-muted hover:bg-muted/80 text-muted-foreground hover:text-foreground transition-colors"
+                  href={"/"}
+                  key={tag}
+                >
+                  {tag}
+                </Link>
+              ))}
+            </div>
           </div>
-        </div>
-      )}
+        )}
+      </Suspense>
 
       {uniqueRelatedTools.length > 0 && (
         <div className="my-8">

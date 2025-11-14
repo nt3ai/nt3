@@ -4,6 +4,7 @@ import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import { usePathname, useSelectedLayoutSegment } from "next/navigation";
 import { useEffect, useState } from "react";
+import Logo from "./logo";
 import { ThemeToggle } from "./theme-toggle";
 import { Button } from "./ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
@@ -46,7 +47,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/">
-            <span className="text-xl font-medium tracking-tight">nt3</span>
+            <Logo />
           </Link>
 
           {/* Desktop Navigation */}
@@ -68,7 +69,7 @@ export default function Header() {
             })}
             <Link
               className="text-base font-medium text-muted-foreground hover:text-foreground transition-colors"
-              href="https://github.com/nt3ai"
+              href="https://github.com/useagentsai"
               target="_blank"
             >
               GitHub
@@ -115,7 +116,7 @@ export default function Header() {
                     })}
                     <Link
                       className="text-lg font-medium text-muted-foreground hover:text-foreground transition-colors"
-                      href="https://github.com/nt3ai"
+                      href="https://github.com/useagentsai"
                       target="_blank"
                     >
                       GitHub

@@ -72,7 +72,7 @@ export function Menu() {
           <div className="mt-auto">
             <Separator className="my-2" />
             <Link
-              href="https://github.com/nt3ai/nt3"
+              href="https://github.com/useagentsai/useagents"
               passHref
               rel="noreferrer"
               target="_blank"
@@ -149,7 +149,7 @@ export function Menu() {
           <div className="mt-auto">
             <Separator className="my-2" />
             <Link
-              href="https://github.com/nt3ai/nt3"
+              href="https://github.com/useagentsai/useagents"
               passHref
               rel="noreferrer"
               target="_blank"

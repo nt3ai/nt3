@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Terms of Service",
   description:
-    "Our commitment to protecting your privacy and personal information when using nt3.",
+    "Our commitment to protecting your privacy and personal information when using useagents.",
 };
 
 export default function TermsOfServicePage() {

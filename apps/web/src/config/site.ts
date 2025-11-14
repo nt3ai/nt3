@@ -1,10 +1,10 @@
-const url = "https://nt3.site";
+const url = "https://useagents.site";
 
 export const siteConfig = {
-  name: "nt3",
-  title: "nt3 – Discover every tool for building AI apps and agents",
+  name: "useagents",
+  title: "useagents – Build the Agentic Web",
   description:
-    "Explore frameworks, SDKs, LLMs, and infrastructure tools that help you create powerful AI agents and apps. Curated, community-driven, and always up to date.",
+    "A platform for discovering AI tools, agent frameworks, MCP servers, workflows, videos, and infrastructure resources used to build modern AI applications.",
   url: url,
   ogImage: `${url}/og.png`,
 };

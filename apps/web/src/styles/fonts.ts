@@ -1,9 +1,15 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Inter } from "next/font/google";
+import localFont from "next/font/local";
 
-export const geistSans = Geist({
+export const poppins = localFont({
+  src: "./Poppins-Medium.woff2",
+  variable: "--font-poppins",
+});
+
+export const inter = Inter({
   display: "swap",
   subsets: ["latin"],
-  variable: "--font-geist-sans",
+  variable: "--font-inter",
 });
 
 export const geistMono = Geist_Mono({

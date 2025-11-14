@@ -6,7 +6,7 @@ import { ToolsList } from "@/components/tools-list";
 export default function ToolsPage() {
   return (
     <FadeInOutWrapper className="max-w-7xl mx-auto">
-      <h1 className="lg:text-3xl text-2xl mb-2 mt-10 max-w-xl text-balance font-medium">
+      <h1 className="lg:text-3xl text-2xl mb-2 mt-10 max-w-xl text-balance font-heading">
         <span className="bg-linear-to-r from-primary to-primary/70 text-transparent bg-clip-text">
           Discover every tool
         </span>{" "}

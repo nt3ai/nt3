@@ -4,6 +4,7 @@ import {
   parseAsStringLiteral,
   useQueryStates,
 } from "nuqs";
+import { createTypedLink } from "@/lib/typed-link";
 
 export const toolsLanguages = [
   {
@@ -97,6 +98,8 @@ const toolParsers = {
   ),
   pricing: parseAsArrayOf(parseAsStringLiteral(pricing)).withDefault(pricing),
 };
+
+export const getToolsLink = createTypedLink("/", toolParsers);
 
 export function useToolsFilterParams() {
   const [filters, setFilters] = useQueryStates(toolParsers);

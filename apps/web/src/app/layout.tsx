@@ -7,7 +7,7 @@ import Header from "@/components/header";
 import { ThemeProvider } from "@/components/theme-provider";
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
-import { geistMono, geistSans } from "@/styles/fonts";
+import { geistMono, inter, poppins } from "@/styles/fonts";
 
 export const metadata: Metadata = {
   title: {
@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   metadataBase: new URL(siteConfig.url),
+  authors: [{ name: "Evans Maina" }],
+  creator: "Evans Maina",
+  publisher: "useagents",
   openGraph: {
     title: siteConfig.title,
     description: siteConfig.description,
@@ -36,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: siteConfig.title,
     description: siteConfig.description,
-    creator: "@nt3ai",
+    creator: "@useagents",
     images: [
       {
         url: `${siteConfig.url}/og.png`,
@@ -45,6 +48,27 @@ export const metadata: Metadata = {
         alt: siteConfig.title,
       },
     ],
+  },
+  keywords: [
+    "ai agents",
+    "ai tools",
+    "llm frameworks",
+    "agentic workflows",
+    "vercel ai sdk",
+    "langgraph",
+    "claude projects",
+    "ai directory",
+  ],
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
 };
 
@@ -69,8 +93,9 @@ export default function RootLayout({
       <body
         className={cn(
           "font-sans antialiased whitespace bg-background text-foreground",
-          geistSans.variable,
-          geistMono.variable
+          inter.variable,
+          geistMono.variable,
+          poppins.variable
         )}
       >
         <ThemeProvider

@@ -72,7 +72,7 @@ export function VideosMenu() {
           <div className="mt-auto">
             <Separator className="my-2" />
             <Link
-              href="https://github.com/nt3ai/nt3"
+              href="https://github.com/useagentsai/useagents"
               passHref
               rel="noreferrer"
               target="_blank"
@@ -81,7 +81,7 @@ export function VideosMenu() {
                 className="w-full bg-[#F5F5F3]/30 text-black border border-black rounded-full items-center justify-center gap-2 font-medium flex dark:text-white dark:border-white"
                 variant="outline"
               >
-                <span>Submit</span> <PlusIcon className="w-4 h-4" />
+                <span>Suggest a video</span> <PlusIcon className="w-4 h-4" />
               </Button>
             </Link>
           </div>
@@ -149,7 +149,7 @@ export function VideosMenu() {
           <div className="mt-auto">
             <Separator className="my-2" />
             <Link
-              href="https://github.com/nt3ai/nt3"
+              href="https://github.com/useagentsai/useagents"
               passHref
               rel="noreferrer"
               target="_blank"
@@ -158,7 +158,7 @@ export function VideosMenu() {
                 className="w-full bg-[#F5F5F3]/30 text-black border border-black rounded-full items-center justify-center gap-2 font-medium flex dark:text-white dark:border-white"
                 variant="outline"
               >
-                <span>Submit</span> <PlusIcon className="size-4" />
+                <span>Suggest a video</span> <PlusIcon className="size-4" />
               </Button>
             </Link>
           </div>

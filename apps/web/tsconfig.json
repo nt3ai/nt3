@@ -1,5 +1,5 @@
 {
-  "extends": "@nt3/tsconfig/nextjs.json",
+  "extends": "@useagents/tsconfig/nextjs.json",
   "compilerOptions": {
     "plugins": [
       {

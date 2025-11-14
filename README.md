@@ -1,4 +1,4 @@
-# nT3
+# useagents
 
 ![Project Logo](./image.png)
 
@@ -36,8 +36,8 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/nt3.git
-   cd nt3
+   git clone https://github.com/your-username/useagents.git
+   cd useagents
    ```
 
 2. Install dependencies:
@@ -97,7 +97,7 @@ The application can be deployed to Vercel, Netlify, or any other platform that s
 
 ### Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fnt3ai%2Fnt3)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fuseagentsai%2Fuseagents)
 
 ## 📝 License
 
